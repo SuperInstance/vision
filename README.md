@@ -7,7 +7,7 @@ writing.
 
 ## Contents
 
-- `council/brief.md` — the shared context given to both competing models
+- `council/brief.md — the shared context given to both competing models
   (2026-10-16 council: Claude Code opus vs MiniMax mcode).
 - `council/submission-claude.md` — claude's submission (verbatim).
 - `council/submission-mcode.md` — mcode's submission (verbatim).
@@ -35,3 +35,11 @@ System-1 layer (fast cheap confidence-scored judgments gating and
 judging expensive reasoning) is built and measured. The strategic reframe:
 the gate buys cadence, not just savings — a batch agent becomes a
 responsive one at the same cost envelope.
+
+## Added 2026-10-17
+
+- `MAP.md` — the ecosystem map: all repos, roles, statuses, the chain.
+- `BASELINE.md` — the honest numbers Sprint 0 measured (the yardstick).
+- `NEXT-ZCODE.md` — the moderator's own sequencing proposal (loops
+  before organs), written for comparison against the owner's direction
+  and PLAN.md's sprint order.
