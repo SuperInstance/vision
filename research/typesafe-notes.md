@@ -82,3 +82,15 @@ The moment a valid key exists: `TYPESAFE_API_KEY=... python3 jev_bench.py`.
   injection screen all ride the same single fan-out call.
 - The fleet gets one shared decision service (the vault proxies it with
   the existing OIDC allowlist pattern).
+
+## EXECUTED (2026-10-17, key working — the `apikey_` prefix was required)
+
+Full results in gate-replay/JEV-RESULTS.md. Headlines: gate 95% idle-skip
+@ 10.5% false-idle on the combined set, 0.25s, $0.05/month at 96 beats/day
+— cloud gate solved. Weasel claim caught at p=1.00 (best measured).
+Injection 7/8 vs laya's 0/6. Fan-out: whole System-1 layer in ONE 0.2s
+call. The ordinal claim question PASSED (conf 0.00) — the ledger's
+0.5-means-pass principle validated on first live data. Blind-veto stays
+in front of any model gate (Jev read past an llm_error retry signal).
+Next: thin adapter for DECISION_URL (vault-side), teacher-labels →
+Platt-scale laya, question rewrite for claim_supported.
