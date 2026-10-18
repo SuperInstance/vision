@@ -1,7 +1,7 @@
 # TypeSafe / Jev — research notes + experiment design (2026-10-17)
 Status: docs deep-read COMPLETE; API adapter + full bench WRITTEN and
 ready (`gate-replay/jev_bench.py`); **execution BLOCKED — the key at
-/mnt/c/Users/casey/type.txt is rejected by the API** (`401 Cannot
+your key file is rejected by the API** (`401 Cannot
 authenticate`, Bearer form confirmed correct; X-API-Key/Token forms
 aren't even recognized). Need a fresh key from console.typesafe.ai.
 The moment a valid key exists: `TYPESAFE_API_KEY=... python3 jev_bench.py`.
