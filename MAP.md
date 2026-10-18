@@ -1,10 +1,10 @@
 # MAP — the SuperInstance agent ecosystem (2026-10-17)
 
-One live agent, one bench, seven satellites. Private unless noted.
+One live agent, one bench, seven satellites — all public.
 
 | repo | role | status |
 |---|---|---|
-| **zero-poc** (PUBLIC) | The agent itself. ReAct loop (agent.py), vault-gated LLM brain, git-native memory, duty-cycle drive, idle gate, shadow observer. Sprint 0 + Sprint 1 shipped (58 tests). | live on Actions |
+| **zero-poc** | The agent itself. ReAct loop (agent.py), vault-gated LLM brain, git-native memory, duty-cycle drive, idle gate, shadow observer. Sprint 0 + Sprint 1 shipped (58 tests). | live on Actions |
 | **minigate** | The serverless idle gate: 9-weight logreg, zero deps; selftest grants/withdraws skip authority in CI (14 rows, currently GRANTED). Vendored into zero-poc for shadow use. | stable |
 | **gate-replay** | Calibration from git history: corpus extraction (49 real cycles), replay harness, adversarial probe set. Winnow-class models: 98% idle-skip @ 0 false-idle. | stable |
 | **cycle-judge** | Trust layer PoC: task-framed completion judge (weasel claims 0.57→0.99 by framing), flail detector (deterministic rules load-bearing), injection screen. EVAL.md documents laya-only limits. | stable |
